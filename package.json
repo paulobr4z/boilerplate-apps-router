@@ -9,12 +9,14 @@
     "lint": "next lint",
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
+    "test:update": "jest --watch --maxWorkers=25% --updateSnapshot",
     "test:ci": "jest --runInBand"
   },
   "dependencies": {
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "styled-components": "^6.1.12"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
