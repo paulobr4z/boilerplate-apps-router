@@ -1,8 +1,8 @@
 import * as S from './styles'
 
 interface IMain {
-  title: string
-  description: string
+  title?: string
+  description?: string
 }
 
 export function Main({ title, description }: IMain) {
